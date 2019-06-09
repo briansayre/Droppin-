@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Droppin__" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the button for a spot to land." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHD-od-l6E">
+                                <rect key="frame" x="0.0" y="508" width="375" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Aq1-Od-ARQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mapnew.png" translatesAutoresizingMaskIntoConstraints="NO" id="p3u-Z7-7DP">
+                                <rect key="frame" x="0.0" y="99" width="375" height="369"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjp-AI-TVQ" colorLabel="IBBuiltInLabel-Blue">
+                                <rect key="frame" x="-7" y="551" width="382" height="116"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <inset key="contentEdgeInsets" minX="100" minY="10" maxX="100" maxY="10"/>
+                                <state key="normal" title="Drop Me">
+                                    <color key="titleColor" red="0.1880675389" green="0.43597712059999999" blue="0.65327477329999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sUG-D0-TnI"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marker.png" translatesAutoresizingMaskIntoConstraints="NO" id="YVM-Ex-Okp">
+                                <rect key="frame" x="121" y="260" width="34" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIq-SC-5EN">
+                                <rect key="frame" x="166" y="54" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marker.png" translatesAutoresizingMaskIntoConstraints="NO" id="UcL-WB-dai">
+                                <rect key="frame" x="129" y="22" width="117" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fortnitelogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="6jp-pm-iHC">
+                                <rect key="frame" x="69" y="47" width="237" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="Zkl-XX-1pT"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="9" bottom="8" right="8"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18806753887480232" green="0.43597712061090593" blue="0.65327477331606221" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.099970197860676444" green="0.084158697799682117" blue="0.64275016191709844" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TIq-SC-5EN" secondAttribute="trailing" constant="20" symbolic="YES" id="2ZF-Ol-vde"/>
+                            <constraint firstItem="6jp-pm-iHC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="69" id="DkC-Yy-Xtw"/>
+                            <constraint firstItem="Jjp-AI-TVQ" firstAttribute="top" secondItem="lHD-od-l6E" secondAttribute="bottom" constant="22" id="GAD-tg-9fX"/>
+                            <constraint firstItem="lHD-od-l6E" firstAttribute="top" secondItem="p3u-Z7-7DP" secondAttribute="bottom" constant="40" id="IdQ-MJ-V3l"/>
+                            <constraint firstItem="TIq-SC-5EN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="166" id="LKt-Tz-yAd"/>
+                            <constraint firstItem="lHD-od-l6E" firstAttribute="leading" secondItem="p3u-Z7-7DP" secondAttribute="leading" id="Mzs-16-Yod"/>
+                            <constraint firstItem="TIq-SC-5EN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="34" id="NM2-vN-8gz"/>
+                            <constraint firstItem="p3u-Z7-7DP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qal-ek-qws"/>
+                            <constraint firstItem="6jp-pm-iHC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="UEc-7G-94p"/>
+                            <constraint firstItem="Jjp-AI-TVQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-23" id="VcQ-Ir-qSL"/>
+                            <constraint firstItem="Jjp-AI-TVQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="X2h-Cl-2k2"/>
+                            <constraint firstItem="p3u-Z7-7DP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="abl-te-yIW"/>
+                            <constraint firstItem="6jp-pm-iHC" firstAttribute="centerX" secondItem="p3u-Z7-7DP" secondAttribute="centerX" id="bAv-ny-P20"/>
+                            <constraint firstItem="lHD-od-l6E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="f6R-SY-Z8o"/>
+                            <constraint firstItem="lHD-od-l6E" firstAttribute="trailing" secondItem="p3u-Z7-7DP" secondAttribute="trailing" id="hvk-yH-seG"/>
+                            <constraint firstItem="Jjp-AI-TVQ" firstAttribute="trailing" secondItem="lHD-od-l6E" secondAttribute="trailing" id="jVC-H5-v7t"/>
+                            <constraint firstAttribute="bottom" secondItem="lHD-od-l6E" secondAttribute="bottom" constant="138" id="k0I-Ws-LOM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="lHD-od-l6E" id="BSw-tq-KIS"/>
+                        <outlet property="marker" destination="YVM-Ex-Okp" id="JCB-sA-FPq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40.799999999999997" y="25.637181409295355"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Mapnew.png" width="640" height="640"/>
+        <image name="fortnitelogo.png" width="512" height="144"/>
+        <image name="marker.png" width="512" height="512"/>
+    </resources>
+</document>
